@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/677605/54d936777c814041a38577d6bb38112a
+bundleId: https://api.rpubs.com/api/v1/document/677605/54d936777c814041a38577d6bb38112a
+url: http://rpubs.com/dpimentel/677605
+when: 1603078657.0719
