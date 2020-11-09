@@ -22,6 +22,8 @@ Link to Repository for the Replication: https://github.com/psych251/okan2018.git
 
 Link to Original Paper:https://github.com/psych251/okan2018/blob/master/original_paper/Okan%20et%20al.%202018.pdf 
 
+Link to Paradigm: https://gse.qualtrics.com/jfe/form/SV_eLJlJu96s8LJ9lP 
+
 ##Methods
 
 ###Power Analysis
@@ -80,7 +82,6 @@ Data preparation following the analysis plan.
 
 ####Load Relevant Libraries and Functions
 ```{r include=T}
-install.packages("plotrix")
 library(tidyr)
 library(dplyr)
 library(plotrix)
@@ -176,13 +177,6 @@ This code runs a linear regression model predicting bias using condition, litear
 ```{r include=T}
 bias_model = lm(Bias ~ Condition_Dummy + Literacy_Score + (Condition_Dummy * Literacy_Score), d)
 summary(bias_model)
-```
-
-#####Replicate Figure 5
-```{r include=T}
-ggplot(bias_summary_d, aes(x=Condition, y=Mean_Difference, group=Literacy_Group, color=Literacy_Group)) +
-  geom_pointrange(position = position_jitter(width = 0.2, height = 0), aes(ymin = Mean_Difference-SE_Bias, ymax = Mean_Difference+SE_Bias))
-  
 ```
 
 #####Replicate Figure 5
