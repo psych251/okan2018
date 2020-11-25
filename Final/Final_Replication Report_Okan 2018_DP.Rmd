@@ -1,0 +1,345 @@
+---
+title: "Replication of Biasing and debiasing health decisions with bar graphs: Costs and benefits of graph literacy by Yasmina Okan, Rocio Garcia-Retamero, Edward T Cokely and Antonio Maldonado (2018, Quarterly Journal of Experimental Psychology)"
+author: "Daniel Pimentel (dpimente@stanford.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+##Introduction
+
+This study will attempt to replicate the findings of Experiment 3 in Biasing and debiasing health decisions with bar graphs: Costs and benefits of graph literacy by Yasmina Okan and colleagues (2018), linked below. This particular experiment was selected because the findings indicate that bar graphs increase the likelihood that participants will demonstrate within-the-bar bias while tables and dot plots do not induce this bias. Additionally, this study indicates that within-the-bar bias is more likely among individuals with higher graphical literacy compared to those with lower graphical literacy. My current area of research explores how K-12 students learn to reason with data representations and the findings of this study have implications for the ways that math and science instructors teach learners to interpret graphs. If individuals are more likely to demonstrate within-the-bar bias when interpreting bar graphs compared to tables or dot plots, further studies might examine whether or not particular instructional interventions can de-bias interpretations made using bar graphs.
+
+To replicate the results of Okan et al. (2018), I will administer a Qualtrics survey using the same questions administered by the original authors. These questions are included in the supplemental materials of the paper along with the original source of the data used to create the graphs in each question so I can recreate these items exactly as administered in the original study. I will use the same three conditions (table, bar graph, and dot plots) outlined in the original experiment. In addition to these items, my survey will also include the graph literacy scale developed by Galesic and Garcia-Retamero (2011), which includes 13 items assessing graph skills (the scale can be found in Appendix A. of the referenced paper). Finally, I will include basic demographic questions as the authors of the original study did in their design. While all of the items are available publicly, I still plan to contact the original authors to ask for a copy of the exact survey administered because although the supplemental material includes all test items, it is missing the instructions each participant saw and I would like for this survey to be as close to the original as possible. Some challenges that I foresee with this study will be related to sample size. This experiment sampled over 600 participants on Mechanical Turk and I don't believe I will have the funding to replicate a study of this size.
+
+Link to Pre-registration: https://osf.io/8e5cg 
+
+Link to Repository for the Replication: https://github.com/psych251/okan2018.git
+
+Link to Original Paper:https://github.com/psych251/okan2018/blob/master/original_paper/Okan%20et%20al.%202018.pdf 
+
+Link to Paradigm: https://gse.qualtrics.com/jfe/form/SV_eLJlJu96s8LJ9lP
+
+##Methods
+
+###Power Analysis
+
+For this replication, we completed a power analysis using G*Power software to determine the planned sample size to acheive 80% power. We did this using the coefficient of determination (R-squared = 0.05) from the regression model in Experiment 3 of the original study. This model predicted within-the-bar bias in likelihood ratings using display type, graph literacy, and the interaction of the two as predictors. To accommodate for financial restriction, we also removed one of the conditions (the table condition) from the study. We determined that we would need to run the replication with N=82, comparing only bar graphs and dot plots. This would allow us to run the study allowing for 7 minutes per person, which seems feasible for completing the graph literacy questions and the likelihood rating questions.
+
+###Planned Sample
+
+Participants will be recruited via Amazon's Mechanical Turk. Like the original study, this task will only be made available to individuals with an acceptance rater greater than or equal to 95% on previous human intelligence tasks (HITs). The task will also be limited to U.S. residents and to those who have obtained at least a high school diploma.
+
+###Materials and Procedure
+
+"Participants [will be] informed that they [will] view data from the National Health and Nutrition Survey concerning the consumption of added sugars among U.S. adults between 2005 and 2010. Participants [will be] further informed that increased consumption of added sugars has been linked to a decrease in intake of essential micronutrients and an increase in body weight. All information [will be] based on that included in the data brief concerning this topic available on the CDC website (Ervin & Ogden, 2013)" (Okan et al., 2018). This first paragraph will be followed precisely.
+
+"Participants [will be] randomly assigned into one of the three experimental conditions. In the table (control) condition (n = 207), participants were presented with a simple table summarising the data (see Figure 4a). In the bars condition, participants (n = 202) were presented with the original bar graph taken from the CDC data brief, depicting mean kilocalories from added sugars consumed per day among adults aged 20 years and over, by age group and sex (see Figure 4b). Finally, participants in the dot plot condition (n = 202) were presented with a redesigned version of the original bar graph, which was identical to the original in all respects, with the exception that bars were replaced by dots (see Figure 4c)" (Okan et al., 2018). For the replication of this study, this paragraph will be followed and participants will be given the exact same figures and questions, however instead of three conditions, I will only use two conditions: the bars condition (n = 41) and the dot plot condition (n = 41).
+
+"Participants [will be] required to judge the likelihood that an individual in one of the groups represented (a female aged between 20 and 39 years) had consumed a given amount of kilocalories of added sugars, which was either above or below the mean for that group. The question concerning the value above the mean [will be] as follows: “What do you think is the likelihood that a female aged between 20 and 39 consumed around 425 kcal of added sugars on a given day?” The question concerning the value below the mean [will be] identical, with the exception that it [enquires] about a value of 125 kcal. As can be seen in Figure 4, the average kilocalories consumed by this group was 275, implying that the values enquired about were equidistant to the mean. Participants [will respond] using [a] 7-point scale... and the order of likelihood ratings [will be] counterbalanced" (Okan et al., 2013). This paragraph will be followed precisely.
+
+"Graph literacy [will be] measured using the scale developed by Galesic and Garcia-Retamero (2011), which includes a total of 13 items" (Okan et al., 2013). This paragraph will be followed precisely.
+
+###Analysis Plan
+
+Once data have been collected, the first thing that I will do is screen demographic information. Individuals will be removed if they are under the age of 18 (this should not be the case with participants in Mechanical Turk, but I'll check this just in case). Next, I will calculate each individual's score on the graph literacy scale and store this as a new variable called "Literacy_Score". After this, I will also create a new variable called "Bias" by subtracting likelihood score above the mean from the likelihood score below the mean. 
+
+To confirm the original study's finding that participants judge the value below the mean to be more likely than the value above the mean, I will run a paired t-test between responses to these two items for the bar graph condition. I will also do this with the dot plot condition to determine whether or not any bias exists for this condition.
+
+Next, I will replicate the regression model ran in the original study as my key statistical analysis. To do this, I will construct a linear regression predicting my "Bias" variable using dummy coding for display type (bar graph = 0, dot plot = 1), graph literacy scores, and the interaction between graph literacy score and display type (condition*literacy_score).
+
+Finally, I will reconstruct figure 5 from the original study by plotting the mean difference between likelihood ratings by display type and graph literacy. I will categorize individuals as "low graph literacy" or "high graph literacy" using the median split on performance on the graph literacy assessment, as was done in the original study. In the original study, the median split used was 10 or fewer correct for "low graph literacy" and 11 or more correct for "high graph literacy". I will note whether the median values are different between the replication sample and the original study, but my analyses will use the median split from the replication values. 
+
+###Differences from Original Study
+
+I am employing the same sampling procedure used by the original study. I imagine that some of the demographic information of the participants will vary slightly from the original study based on the individuals that choose to participate in this replication, however I will only know how this sample differs from the original after administering the HIT. 
+
+One major difference between the original experiment and this replication is that I will not be including the table (control) condition due to financial restrictions. I do not believe that this difference will make a large impact based on claims from the original paper because the major claims that were made were about showing that a within-the-bar bias exists for bar graphs and that this bias can be mitigated using dot plots, both of which are still included in this replication.
+
+Another possible difference between this study and the original study might occur when calculating the median split on the graph literacy assessment. I plan to use the same procedure used in the original study for distinguishing "low graph literacy" participants from "high graph literacy" participants. This involves dividing the two groups using the median split, which could be slightly different in this sample, depending on how the individuals do on the assessment. Ultimately, I believe this should not impact the claim that people with higher graph literacy demonstrate within-the-bar bias more than people with lower graph literacy.
+
+### Methods Addendum (Post Data Collection)
+#### Actual Sample
+A total of 82 U.S. residents completed this replication study. One participant did not complete all of the graph literacy questions and was excluded from subsequent analyses. The final sample included 81 participants (25 women, age range 21-67 years, lower quartile = 29, median = 34, upper quartile = 40; skewness = .86). Forty two participants were assigned to the bar graph condition and 39 were assigned to the dot plot condition. Nine percent had no more than a high school diploma, 25% had completed up to some college or associate degree, 52% had a bachelor’s degree, and 14% had a Master’s degree or higher. Sixty nine percent of participants identified as white, 15% identified as Asian, 13% identified as Black or African American, 1% identified as American Indian or Native Alaskan, and 2% identified as an other, unspecified, race. The average completion time was approximately 14 minutes.
+  
+#### Differences from pre-data collection methods plan
+The initial plan was to evenly split participants across the two conditions so that there would be an n=41 for each. Random assignment was determined by a random generator in Qualtrics and so these numbers did not turn out exactly even. One more participant was assigned to the bar condition and one participant in the dot plot condition needed to be excluded due to incomplete graph literacy data, causing the final condition numbers to deviate slightly from the original plan. Also, I did not initially indicate that participants would be excluded for not completing graph literacy items because this possibility was not considered. After data collection, one individual did not complete all of the items and needed to be excluded from analyses because a graph literacy score could not be calculated for this individual.
+
+
+##Results
+### Data preparation
+Data preparation following the analysis plan.
+
+####Load Relevant Libraries and Functions
+```{r include=T}
+library(tidyr)
+library(dplyr)
+library(plotrix)
+library(stringr) # useful for some string manipulation
+library(ggplot2)
+#install.packages("e1071")
+library(e1071)
+```
+
+####Import data
+```{r include=T}
+d = read.csv("Replication of Okan et al. (2018) Final.csv")
+```
+
+####Score Graph Literacy Questions
+This code scores each question on the graph literacy assessment by creating a new column and giving individuals a 1 for a correct answer and a 0 for an incorrect answer.
+```{r include=T}
+d <- d %>%
+  na.omit() %>%
+  mutate(Lit_Q1_score = if_else(Lit_Q1 == 35, 1, 0),
+         Lit_Q2_score = if_else(Lit_Q2 == 15, 1, 0),
+         Lit_Q3_score = if_else(Lit_Q3 == 25, 1, 0),
+         Lit_Q4_score = if_else(Lit_Q4 == 25, 1, 0),
+         Lit_Q5_score = if_else(Lit_Q5 == 20, 1, 0),
+         Lit_Q6_score = if_else(Lit_Q6 == "Increase was the same in both intervals", 1, 0),
+         Lit_Q7_score = if_else(Lit_Q7 <= 25 & Lit_Q7 >= 23, 1, 0),
+         Lit_Q8_score = if_else(Lit_Q8 == 40, 1, 0),
+         Lit_Q9_score = if_else(Lit_Q9 == 20, 1, 0),
+         Lit_Q10_score = if_else(Lit_Q10 == "They are equal", 1, 0),
+         Lit_Q11_score = if_else(Lit_Q11 == "Nopsorian", 1, 0),
+         Lit_Q12_score = if_else(Lit_Q12 == "Tiosis", 1, 0),
+         Lit_Q13_score = if_else(Lit_Q13 == 5, 1, 0))
+
+```
+####Total Graph Literacy Scores and Create High / Low Literacy Groups
+This code creates a new variable called "Literacy_Score" which adds up all of the points earned for each question. Then, it calculates the median score and uses that to create two new variables, one called "Literacy_Group" which uses the median split to sort individuals into "high" and "low" graph literacy. The variable "Literacy_Group_Dummy" is just the dummy version of this with high = 1 and low = 0 on graph literacy.
+```{r include=T}
+d <- d %>%
+  mutate(Literacy_Score = Lit_Q1_score + Lit_Q2_score + Lit_Q3_score + Lit_Q4_score + 
+           Lit_Q5_score + Lit_Q6_score + Lit_Q7_score + Lit_Q8_score + Lit_Q9_score + 
+           Lit_Q10_score + Lit_Q11_score + Lit_Q12_score + Lit_Q13_score)
+
+median_literacy_score <- median(d$Literacy_Score, na.rm = T)
+
+d <- d %>%
+  mutate(Literacy_Group = if_else(Literacy_Score >= median_literacy_score, "High", "Low"),
+         Literacy_Group_Dummy = if_else(Literacy_Score >= median_literacy_score, 1, 0))
+```
+
+####Calculate Within-the-bar Bias
+This next code creates a new variable called "Bias" which calculates how much "within-the-bar" bias exists for each condition.
+```{r include=T}
+d <- d %>%
+  mutate(Bias = Q2 - Q1)
+```
+
+####Divide Data into Two Conditions
+This code divides the data up by condition so that running t-tests is easier.
+```{r include=T}
+bar_group = d %>% 
+  filter(Condition_Dummy == 0)
+
+dot_group = d %>% 
+  filter(Condition_Dummy == 1)
+```
+
+
+### Confirmatory analysis
+
+####Calculate Means and Standard Deviation for Groups
+This code groups individuals by condition and literacy score group to find their average bias score.
+```{r include=T}
+bias_summary_d = d %>% 
+  group_by(Condition, Literacy_Group) %>%
+  summarise(Mean_Difference = mean(Bias, na.rm = T),
+            SE_Bias = std.error(Bias, na.rm = T))
+bias_summary_d
+```
+
+####T-tests
+This code runs paired t-tests to determine if there was a significant difference between how people answered Q1 and Q2.
+```{r include=T}
+sig_bias_bar <- t.test(bar_group$Q1, bar_group$Q2, paired=TRUE)
+sig_bias_bar
+
+sig_bias_dot <- t.test(dot_group$Q1, dot_group$Q2, paired=TRUE)
+sig_bias_dot
+
+sig_bias_btw <- t.test(bar_group$Bias, dot_group$Bias)
+sig_bias_btw
+```
+
+####Linear Regression
+This code runs a linear regression model predicting bias using condition, litearcy score, and the interaction between the two.
+```{r include=T}
+bias_model = lm(Bias ~ Condition_Dummy + Literacy_Score + (Condition_Dummy * Literacy_Score), d)
+summary(bias_model)
+```
+
+#####Replicate Figure 5
+```{r include=T}
+# Specify the factor levels in the order you want
+levels(d$Literacy_Group)
+d$Literacy_Group <- factor(d$Literacy_Group, levels = c("High", "Low"))
+
+# Plot the average bias for each group with SE bars
+ggplot(bias_summary_d, aes(x=Condition, y=Mean_Difference, group=Literacy_Group)) +
+  theme_bw() +
+  theme(legend.title = element_blank()) + 
+  geom_pointrange(position = position_dodge(width = -0.3), aes(ymin = Mean_Difference-SE_Bias, ymax = Mean_Difference+SE_Bias, color=Literacy_Group)) +
+  labs(x = "Display Type") +
+  scale_y_continuous(name = "Mean Difference judgement below - above the mean", breaks=seq(-1,4.5,0.25)) +
+  scale_color_discrete(labels = c("Low graph literacy", "High graph literacy"), breaks=c("Low","High"))
+
+```
+
+###Exploratory analyses
+Any follow-up analyses desired (not required).  
+
+#### Demographic information
+This is some demographic information of the sample.
+```{r include=T}
+#Number of women in the sample
+sum(d$Gender_Dummy)
+
+#Number of participants in dot plot
+sum(d$Condition_Dummy)
+
+#Summary of Age
+range(d$Age)
+quantile(d$Age)
+skewness(d$Age)
+
+#Race of Participants
+race_summary_d = d %>% 
+  group_by(Race) %>%
+  summarise(N = n())
+race_summary_d
+
+#Average time spent on task
+avg_time_mins = mean(d$Duration_seconds) / 60
+```
+
+#### Mean Values
+Mean values for questions in each condition.
+```{r include=T}
+# Mean and SD for Q1 (above mean likelihood) and Q2 (below mean likelihood) in bar group
+barQ1mean = mean(bar_group$Q1)
+barQ1mean
+barQ1SD = sd(bar_group$Q1)
+barQ1SD 
+barQ2mean = mean(bar_group$Q2)
+barQ2mean
+barQ2SD = sd(bar_group$Q2)
+barQ2SD
+
+# Mean and SD for Q1 (above mean likelihood) and Q2 (below mean likelihood) in dot plot group
+dotQ1mean = mean(dot_group$Q1)
+dotQ1mean
+dotQ1SD = sd(dot_group$Q1)
+dotQ1SD
+dotQ2mean = mean(dot_group$Q2)
+dotQ2mean
+dotQ2SD = sd(dot_group$Q2)
+dotQ2SD
+```
+
+#### T-tests by Literacy Group
+These t-tests explore if there was a difference in the bias amoung the high literacy groups in each condition and the low literacy groups in each condition.
+```{r include=T}
+# Create a group for high literacy group in bar condition
+high_bar = bar_group %>%
+  filter(Literacy_Group == "High")
+
+# Create a group for low literacy group in bar condition
+low_bar = bar_group %>%
+  filter(Literacy_Group == "Low")
+
+# Create a group for high literacy group in dot condition
+high_dot = dot_group %>%
+  filter(Literacy_Group == "High")
+
+# Create a group for low literacy group in dot condition
+low_dot = dot_group %>%
+  filter(Literacy_Group == "Low")
+
+# Compare high literacy groups across conditions
+sig_bias_high <- t.test(high_bar$Bias, high_dot$Bias)
+sig_bias_high
+
+# Compare low literacy groups across conditions
+sig_bias_low <- t.test(low_bar$Bias, low_dot$Bias)
+sig_bias_low
+```
+
+#### Examining Literacy Scores and Education Level
+This is a histogram of literacy scores by education level and a summary table of average literacy score by education level.
+```{r include=T}
+# A Histogram of literacy scores separated by education level.
+ggplot(d, 
+       aes(x = Literacy_Score, fill=Educ)) + 
+        geom_histogram() +
+        facet_grid(.~Educ)
+
+# A summary table of literacy score information grouped by education level
+literacy_summary_d = d %>% 
+  group_by(Educ) %>%
+  summarise(N = n(),
+    Mean_Score = mean(Literacy_Score, na.rm = T), 
+            SE_Score = std.error(Literacy_Score, na.rm = T))
+literacy_summary_d
+
+# Education Level of participants in each condition (0 = some high school, up to 5 = master's degree or above)
+ggplot(d, 
+       aes(x = Educ_Dummy)) + 
+        geom_histogram() +
+        facet_grid(.~ Condition_Dummy)
+
+# Average and median education level in both conditions. The quantitative value doesn't mean much - just a rough indicator of education in each group.
+group_ed_summary_d = d %>% 
+  group_by(Condition) %>%
+  summarise(Mean_Score = mean(Educ_Dummy, na.rm = T),
+            Median_Score = median(Educ_Dummy, na.rm = T))
+group_ed_summary_d
+```
+
+#### Exploratory Linear Regression Models
+```{r include=T}
+# Does education level predict how well participants scored on graph literacy?
+literacy_model = lm(Literacy_Score ~ Educ_Dummy, d)
+summary(literacy_model)
+# This model isn't significant but does suggest a slightly negative correlation between education and literacy score. This might just be due to the small numbers in some of the education categories. Might be an area to explore further, since much of the paper is based on the assumption that this graph literacy measure is valid.
+
+# Does adding the time spend on task to the model help to predict bias?
+duration_model = lm(Bias ~ Condition_Dummy + Literacy_Score + Duration_seconds + (Condition_Dummy * Literacy_Score), d)
+summary(duration_model)
+# It appears that duration is not a significant predictor in this model.
+```
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Consistent with the original study, participants presented with bars judged the value below the mean (M = 5.40, SD = 1.59) to be more likely than the value above the mean (M = 3.26, SD = 1.91), paired t(41) = 5.06, p < .001, 95% CI = [1.29, 3.00], revealing a large, significant influence of the within-the-bar bias, replicating the original finding. The original study states that for the dot plot condition "a tendency in the same direction was also observed", however they do not comment on whether or not this tendency is statistically significant (p.2515). In this replication, participants presented with the dot plot also judged the value below the mean (M = 4.67, SD = 2.06) to be more likely than the value above the mean(M = 3.67, SD = 2.00), paired t(38) = 2.56, p = .01, 95% CI = [0.21, 1.79], revealing a similar bias in this condition.
+
+To replicate the key statistical analysis of this experiment, I constructed a linear regression predicting bias in likelihood ratings from display type, using dummy coding with the bars condition as the reference category. Graph literacy and the interaction between graph literacy and display type were also included as predictors. The replicated model explained a substantial and significant amount of variance, R2 = .26, F(3, 77) = 8.97, p < .001. The finding that this model significantly predicted bias was similar to the finding published in the original study.
+
+Unlike the original study, however, dot plots did not significantly reduced the bias, β = −.22, t = -0.16, p = 0.87, indicating that this finding was not replicated. Much like the original study, graph literacy scores predicted bias scores with higher graph literacy related to stronger bias, β =.40, t = 3.91, p < .001. The original study claims that the interaction term was "marginally significant" (β = −.10, t = 1.82, p = .07). That finding was not replicated, β = −.12, t = -0.84, p = .40.
+
+Overall, the study was only partially replicated, with graph literacy scores predicting bias scores at a significant level and the existence of within-the-bar bias among those interpreting data using bar graphs. This replication did not replicate the finding that dot plots could significantly reduce the bias overall.
+
+### Commentary
+
+####Insights from follow-up exploratory analysis
+
+Follow-up exploratory analysis using a linear regression model to predict graph literacy scores using education level indicated that there was a small, negative correlation between education level and graph literacy scores. This value was not significant and might simply be the result of small sample sizes in some of the education levels, however it might be worthwhile to further explore the relationship between this graph literacy assessment and participant characteristics. One would imagine that education level would be positively correlated with graph literacy and if this is not the case, it makes sense to further investigate this measure of graph literacy. This is especially important for this study, whose claims rely on the validity of this measure to support the findings. 
+
+####Assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result.
+
+It is unlikely that differences among the sample resulted in the failure to replicate portions of the study. Rather, it is more likely that this replication was underpowered compared to the original. The original paper employed 611 participants, which is quite a large number to detect this effect. It is likely that the replication returned a false negative in regard to display type differences due to only have ~40 participants in each condition.
+
+####Discussion of any objections or challenges raised by the current and original authors about the replication attempt
+
+The original authors did not comment on the replication paradigm nor the replication's findings.
+

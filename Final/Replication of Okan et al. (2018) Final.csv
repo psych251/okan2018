@@ -1,0 +1,83 @@
+Duration_seconds,Recorded_Date,Response_Id,Condition,Condition_Dummy,Q1,Q2,Lit_Q1,Lit_Q2,Lit_Q3,Lit_Q4,Lit_Q5,Lit_Q6,Lit_Q7,Lit_Q8,Lit_Q9,Lit_Q10,Lit_Q11,Lit_Q12,Lit_Q13,Gender,Gender_Dummy,Age,Educ,Educ_Dummy,Race
+268,11/14/20 16:12,R_WeTYRPZUMc4HFi9,Bar,0,5,4,35,15,25,25,22.5,Increase was the same in both intervals,25,40,60,Hertinol,Nopsorian,Tiosis,5,Male,0,30,Completed bachelor's degree,4,White
+80,11/14/20 16:15,R_2uNCwkSKBXLL1yj,Bar,0,4,5,23,43,24,26,21,From 2000 to 2005,18,60,40,Hertinol,They are equal,Coliosis,62,Female,1,23,Completed associate degree,3,White
+340,11/14/20 16:16,R_1mJDZRDOMrojnzY,Dot,1,1,7,35,15,25,25,20,Increase was the same in both intervals,25,40,20,Crosicol,Nopsorian,Coliosis,5,Male,0,44,Completed master's degree or higher,5,Asian
+278,11/14/20 16:19,R_pMdZfYEXOAdcdu9,Dot,1,3,2,35,15,25,25,20,Increase was the same in both intervals,25,40,20,Hertinol,Nopsorian,Tiosis,5,Male,0,32,Completed master's degree or higher,5,White
+365,11/14/20 16:20,R_31XjrSUtUcDeE5v,Bar,0,2,1,35,15,25,25,20,Increase was the same in both intervals,24,40,60,They are equal,Nopsorian,Tiosis,5,Male,0,35,Completed bachelor's degree,4,Asian
+263,11/14/20 16:21,R_30jKeUYqS0bVF8q,Bar,0,1,2,35,15,25,25,20,Increase was the same in both intervals,25,40,10,Crosicol,Nopsorian,Tiosis,5,Male,0,29,Completed bachelor's degree,4,White
+484,11/14/20 16:22,R_3fxcWTGQiwx1w3q,Bar,0,6,5,35,10,25,75,20,Increase was the same in both intervals,23,40,60,Hertinol,Nopsorian,Tiosis,5,Male,0,55,Completed associate degree,3,White
+461,11/14/20 16:24,R_3GARbOWe7au9KW0,Dot,1,5,1,35,15,25,25,20,Increase was the same in both intervals,25,40,60,Hertinol,Nopsorian,Tiosis,5,Female,1,28,Completed master's degree or higher,5,White
+390,11/14/20 16:24,R_1jxfWZ70fHP3BFA,Dot,1,6,7,70,90,25,15,65,From 2000 to 2005,75,40,60,Crosicol,Nopsorian,Tiosis,5,Male,0,40,Completed high school with diploma,1,Black or African American
+512,11/14/20 16:25,R_bjDgbT1kVB5ZMjf,Bar,0,3,5,70,20,25,25,20,Increase was the same in both intervals,40,40,20,Hertinol,Nopsorian,Coliosis,50,Female,1,40,Completed bachelor's degree,4,Black or African American
+459,11/14/20 16:26,R_9L9RF1KL7pyCSiJ,Dot,1,6,5,35,15,25,12,20,From 2000 to 2005,23,40,70,Crosicol,They are equal,Coliosis,5,Female,1,26,Completed bachelor's degree,4,White
+250,11/14/20 16:26,R_2Cxkut8nixywOoz,Dot,1,4,5,20,15,25,25,18,From 2000 to 2005,22,40,60,Crosicol,Nopsorian,Tiosis,5,Male,0,25,Completed bachelor's degree,4,White
+457,11/14/20 16:29,R_1mtuHjeGeUzhQqJ,Bar,0,2,4,35,15,25,25,20,Increase was the same in both intervals,25,40,60,They are equal,Nopsorian,Tiosis,5,Female,1,24,Completed bachelor's degree,4,White
+461,11/14/20 16:30,R_3G83uJ4cSCzFJdg,Dot,1,7,7,35,45,25,50,20,Increase was the same in both intervals,22.5,40,60,Crosicol,Nopsorian,Coliosis,5,Female,1,45,Completed bachelor's degree,4,White
+201,11/14/20 16:30,R_3s1uzRhfXH5u9tM,Bar,0,2,7,35,15,25,10,20,Increase was the same in both intervals,25,40,10,They are equal,Nopsorian,Tiosis,5,Male,0,38,Completed bachelor's degree,4,White
+1355,11/14/20 16:31,R_2wSojZIuyEe5pkm,Dot,1,3,5,35,15,25,25,20,From 2000 to 2005,25,40,20,They are equal,Nopsorian,Coliosis,5,Male,0,48,Completed bachelor's degree,4,Asian
+482,11/14/20 16:31,R_bxyqy2B0dW8qU7L,Bar,0,3,5,35,15,25,25,20,Increase was the same in both intervals,25,36,9,They are equal,Nopsorian,Tiosis,12,Male,0,31,Completed associate degree,3,White
+344,11/14/20 16:31,R_3lE67qhjRPrpvAu,Bar,0,1,7,35,15,25,50,20,Increase was the same in both intervals,25,40,20,Hertinol,Nopsorian,Tiosis,50,Female,1,28,Some college,2,Asian
+551,11/14/20 16:35,R_6RqCK0ifKokLHwZ,Dot,1,3,2,35,15,25,50,20,Increase was the same in both intervals,23,40,20,Crosicol,Nopsorian,Tiosis,5,Female,1,26,Completed bachelor's degree,4,Black or African American
+324,11/14/20 16:37,R_3GxEObj9UvJTBbV,Bar,0,1,7,35,15,25,25,20,From 2000 to 2005,25,40,60,Crosicol,Nopsorian,Tiosis,5,Male,0,34,Completed high school with diploma,1,White
+495,11/14/20 16:40,R_1OHU7fDYEhs8AMH,Dot,1,2,2,35,15,25,25,20,Increase was the same in both intervals,25,40,60,Crosicol,Nopsorian,Tiosis,5,Male,0,23,Some college,2,Asian
+147,11/14/20 16:58,R_2aCZI59VV1tCLp4,Bar,0,5,4,45,35,35,55,25,From 2000 to 2005,15,45,5,Hertinol,Nopsorian,Tiosis,25,Male,0,34,Some college,2,White
+405,11/14/20 16:59,R_yOodAGJtQygExJ7,Bar,0,1,7,35,15,25,25,20,From 2000 to 2005,25,40,20,Crosicol,Nopsorian,Tiosis,5,Male,0,55,Some high school,0,White
+306,11/14/20 17:24,R_2tE9VtPo5VEckvc,Dot,1,6,6,50,50,50,50,50,From 2000 to 2005,50,100,100,Crosicol,Apsoriatin,Coliosis,50,Male,0,36,Completed bachelor's degree,4,Black or African American
+908,11/14/20 17:27,R_3jcwZTs58BlcyLq,Bar,0,2,2,35,30,25,25,20,Increase was the same in both intervals,22,40,60,Crosicol,Nopsorian,Tiosis,5,Female,1,37,Completed bachelor's degree,4,White
+382,11/14/20 17:29,R_2sTKJ1aZVVFK5nj,Dot,1,6,5,35,45,25,25,30,From 2000 to 2005,40,40,60,Hertinol,Apsoriatin,Coliosis,70,Female,1,50,Completed bachelor's degree,4,White
+339,11/14/20 17:34,R_1E0zJfHbXdIWiFL,Dot,1,1,7,35,15,25,25,20,Increase was the same in both intervals,24,40,10,They are equal,Can't say,Tiosis,5,Male,0,30,Some college,2,White
+565,11/14/20 17:34,R_1pYIlnrn50gZW8j,Bar,0,1,7,35,5,25,10,20,Increase was the same in both intervals,24,40,20,They are equal,Nopsorian,Tiosis,5,Male,0,48,Completed bachelor's degree,4,Black or African American
+521,11/14/20 17:43,R_3siGHRy1nO1Jg1W,Bar,0,2,4,35,45,25,75,20,From 2000 to 2005,25,40,60,They are equal,Nopsorian,Coliosis,5,Male,0,37,Completed bachelor's degree,4,White
+467,11/14/20 17:55,R_Wxjmeli38id9XnH,Dot,1,5,4,35,45,25,25,20,Increase was the same in both intervals,25,40,20,Crosicol,Nopsorian,Tiosis,50,Male,0,27,Completed associate degree,3,White
+3271,11/14/20 18:06,R_3377VXwnzZ4YH4U,Bar,0,5,3,35,15,25,25,20,From 2000 to 2005,25,40,60,Crosicol,Nopsorian,Coliosis,5,Male,0,40,Completed master's degree or higher,5,Asian
+308,11/14/20 18:19,R_b884pPzOmjkv8AN,Bar,0,2,7,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Can't say,Tiosis,5,Male,0,36,Completed bachelor's degree,4,White
+5735,11/14/20 18:42,R_12ydjvNx7dfoEdS,Dot,1,2,7,35,15,25,8,20,Increase was the same in both intervals,25,40,20,Hertinol,Nopsorian,Tiosis,5,Male,0,32,Completed master's degree or higher,5,Asian
+7791,11/14/20 19:03,R_2XcfyqvOWtz1rDn,Dot,1,5,6,35,15,25,9,20,From 2000 to 2005,25,40,60,Crosicol,Nopsorian,Coliosis,5,Female,1,38,Completed bachelor's degree,4,Black or African American
+259,11/14/20 20:34,R_3qPOuisio7Hl0Gt,Dot,1,6,6,35,45,20,20,50,From 2000 to 2005,50,40,60,Crosicol,Apsoriatin,Coliosis,5,Female,1,35,Completed bachelor's degree,4,White
+259,11/14/20 20:44,R_3CVFLvUBFCCR7qU,Bar,0,1,7,35,10,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Nopsorian,Tiosis,5,Male,0,27,Completed high school with diploma,1,White
+197,11/14/20 21:07,R_2399g1YVIXCLfas,Bar,0,4,5,65,75,76,65,67,Increase was the same in both intervals,65,7,6,Crosicol,Nopsorian,Coliosis,45,Male,0,36,Completed bachelor's degree,4,Asian
+19258,11/14/20 21:44,R_2f6uyh4GuVqUyBu,Dot,1,6,6,35,30,20,50,50,From 2000 to 2005,50,40,60,Crosicol,Apsoriatin,Coliosis,5,Male,0,49,Completed bachelor's degree,4,White
+321,11/14/20 21:54,R_1ezr4WCVYmALdR0,Bar,0,3,5,35,15,24,26,20,Increase was the same in both intervals,28,40,60,They are equal,Nopsorian,Tiosis,5,Male,0,26,Some college,2,White
+239,11/14/20 22:14,R_3P7Qy97XJhG0Wq5,Dot,1,3,6,36,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Nopsorian,Tiosis,20,Male,0,21,Completed high school with diploma,1,White
+276,11/14/20 22:26,R_yCqidOXg1ZiHzuV,Bar,0,6,5,55,60,50,30,60,From 1975 to 1980,40,400,600,Crosicol,Nopsorian,Tiosis,45,Female,1,38,Completed bachelor's degree,4,White
+313,11/14/20 23:05,R_3nforYhFnwXne3l,Dot,1,2,2,35,10,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Can't say,Tiosis,5,Male,0,29,Completed bachelor's degree,4,White
+337,11/14/20 23:58,R_87DUPulE5BN8EyB,Dot,1,1,1,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Can't say,Tiosis,5,Male,0,54,Completed master's degree or higher,5,White
+727,11/15/20 0:05,R_1L0fO4v4JmxeYut,Bar,0,1,7,35,15,25,25,20,Increase was the same in both intervals,25,40,20,Crosicol,Nopsorian,Tiosis,5,Female,1,29,Some college,2,White
+483,11/15/20 1:42,R_2qqGUj5QqxKZ25l,Dot,1,5,5,35,15,25,25,20,From 2000 to 2005,25,40,60,Crosicol,Nopsorian,Coliosis,5,Male,0,32,Completed bachelor's degree,4,White
+169,11/15/20 8:55,R_33vQ2zKUljFndWT,Bar,0,6,5,35,15,25,25,19,Increase was the same in both intervals,25,40,60,Hertinol,Apsoriatin,Coliosis,6,Female,1,34,Completed bachelor's degree,4,White
+528,11/15/20 9:12,R_24iwEmd6D6IxfFI,Bar,0,2,7,35,15,25,25,19,Increase was the same in both intervals,24,40,60,Crosicol,Nopsorian,Tiosis,50,Female,1,38,Completed bachelor's degree,4,White
+466,11/15/20 9:55,R_2COEWLfdBuN9RAl,Dot,1,1,7,35,15,25,25,20,Increase was the same in both intervals,25,40,20,Crosicol,Nopsorian,Tiosis,5,Male,0,31,Completed associate degree,3,White
+277,11/15/20 13:31,R_1AfdAm1lcxhHuk9,Bar,0,1,7,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,They are equal,Tiosis,4,Female,1,38,Completed associate degree,3,Asian
+363,11/15/20 15:18,R_2wKYDhEZ4z2afki,Dot,1,2,2,35,15,25,25,20,Increase was the same in both intervals,25,40,10,Crosicol,Nopsorian,Tiosis,5,Male,0,32,Completed bachelor's degree,4,White
+242,11/15/20 20:14,R_22yNU35th1DwMhw,Bar,0,6,6,35,15,25,25,20,Increase was the same in both intervals,25,40,10,Hertinol,Nopsorian,The increase was equal,5,Male,0,35,Some college,2,White
+705,11/15/20 20:57,R_2bQqlJDJ6PQDCZw,Dot,1,1,1,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Nopsorian,Tiosis,5,Male,0,44,Completed bachelor's degree,4,White
+245,11/15/20 21:04,R_3qfzKZLzGskxTUr,Bar,0,6,5,35,30,25,25,5,Increase was the same in both intervals,25,40,60,They are equal,Apsoriatin,The increase was equal,8,Male,0,45,Completed bachelor's degree,4,White
+252,11/15/20 21:58,R_vfB7SWPHS4Ytjwd,Bar,0,3,3,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Can't say,Tiosis,5,Male,0,26,Completed bachelor's degree,4,White
+405,11/15/20 22:01,R_1M6EMF4JWbV9h9v,Bar,0,3,6,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,They are equal,Tiosis,5,Male,0,46,Completed bachelor's degree,4,White
+235,11/16/20 1:12,R_CmHMCuP60wwtSHn,Dot,1,3,6,35,15,25,25,20,Increase was the same in both intervals,25,40,20,Crosicol,Nopsorian,Tiosis,5,Male,0,28,Completed master's degree or higher,5,White
+284,11/16/20 8:13,R_3Grff2ApS4lDkX5,Dot,1,7,5,5,10,1,2,5,From 1975 to 1980,1,3,2,Hertinol,Apsoriatin,Tiosis,2,Male,0,47,Completed master's degree or higher,5,Black or African American
+200,11/16/20 10:34,R_21poWByE3Epta56,Bar,0,6,5,35,30,40,30,20,Increase was the same in both intervals,25,40,60,Hertinol,Apsoriatin,Tiosis,5,Male,0,30,Some college,2,Black or African American
+807,11/16/20 10:46,R_tWYT9sSI7tpnBol,Bar,0,2,7,35,15,25,25,20,Increase was the same in both intervals,25,40,10,They are equal,Nopsorian,Tiosis,5,Male,0,33,Completed master's degree or higher,5,White
+280,11/16/20 10:46,R_1j6reLQVja4v6WS,Dot,1,2,5,35,15,25,25,20,Increase was the same in both intervals,26,40,20,They are equal,Nopsorian,Tiosis,5,Male,0,55,Completed associate degree,3,White
+497,11/16/20 12:32,R_3qg1QdoG4t0uDgO,Bar,0,4,5,35,5,25,10,20,Increase was the same in both intervals,30,40,20,They are equal,Nopsorian,Coliosis,50,Female,1,67,Some college,2,White
+297,11/16/20 15:32,R_3MDrywv4dBqdja2,Dot,1,2,2,35,15,25,25,20,Increase was the same in both intervals,25,40,20,Crosicol,Nopsorian,Tiosis,50,Male,0,32,Completed bachelor's degree,4,White
+367,11/16/20 15:40,R_sc0p4CMwnMczEyJ,Bar,0,1,7,35,15,24,26,20,Increase was the same in both intervals,24,40,10,They are equal,Nopsorian,Tiosis,5,Male,0,34,Completed high school with diploma,1,White
+342,11/16/20 15:47,R_R9mSkRLbQUgz7Vv,Dot,1,2,6,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Can't say,Tiosis,5,Female,1,38,Some college,2,Other:
+488,11/16/20 16:05,R_6Sw7vWLt0501NZf,Dot,1,1,1,35,15,25,25,20,From 1975 to 1980,25,40,20,They are equal,Can't say,Tiosis,5,Male,0,27,Completed bachelor's degree,4,Other:
+251,11/16/20 16:12,R_2uBufxO0OjHqHdr,Dot,1,7,6,35,15,25,25,20,From 2000 to 2005,22.5,40,60,Hertinol,Nopsorian,Coliosis,5,Female,1,54,Completed associate degree,3,White
+219,11/16/20 16:13,R_3G6rkId33AUL1hY,Bar,0,6,5,23,23,40,14,30,From 2000 to 2005,40,40,60,Crosicol,Apsoriatin,Coliosis,50,Male,0,56,Completed bachelor's degree,4,White
+268,11/16/20 16:14,R_2rZAGS8PAfHimRf,Bar,0,6,6,25,35,25,10,20,From 2000 to 2005,30,40,60,Crosicol,Apsoriatin,Coliosis,80,Female,1,38,Completed bachelor's degree,4,Asian
+377,11/16/20 16:24,R_OPXZCZLoq6WsCT7,Dot,1,2,7,35,15,25,25,20,Increase was the same in both intervals,25,40,20,Hertinol,Nopsorian,Tiosis,50,Male,0,35,Completed high school with diploma,1,White
+644,11/16/20 16:35,R_zeYsKfPw33ZuiAN,Bar,0,2,7,35,15,25,25,20,Increase was the same in both intervals,25,40,20,They are equal,Nopsorian,Tiosis,5,Male,0,23,Some college,2,White
+308,11/16/20 16:52,R_2BxKxImdI2KegbF,Bar,0,6,7,7,5,10,15,20,From 2000 to 2005,22,40,60,Crosicol,Apsoriatin,Tiosis,22,Female,1,30,Completed master's degree or higher,5,American Indian or Alaska Native
+159,11/16/20 17:52,R_6DR5Vl9OKkZ3udr,Dot,1,4,6,45,55,25,25,20,From 2000 to 2005,25,40,60,Hertinol,Apsoriatin,Coliosis,5,Male,0,34,Completed master's degree or higher,5,Black or African American
+160,11/16/20 20:37,R_ehWvCgksmf155V7,Bar,0,5,6,35,30,25,25,25,Increase was the same in both intervals,25,40,60,They are equal,They are equal,The increase was equal,8,Male,0,50,Completed bachelor's degree,4,White
+933,11/16/20 20:45,R_3qqUtXe1kvMwE0N,Dot,1,6,5,35,45,50,35,50,From 2000 to 2005,70,40,60,Hertinol,Apsoriatin,Coliosis,50,Male,0,30,Completed bachelor's degree,4,Asian
+623,11/16/20 20:55,R_OuH6uIl3iku1S13,Bar,0,1,7,35,15,25,25,20,From 2000 to 2005,25,40,60,Crosicol,Can't say,Tiosis,5,Male,0,26,Completed bachelor's degree,4,Asian
+505,11/17/20 4:17,R_3KU4kN7EPhshI6G,Dot,1,2,7,35,15,25,25,20,Increase was the same in both intervals,25,40,60,They are equal,Nopsorian,Tiosis,5,Male,0,36,Completed bachelor's degree,4,White
+578,11/17/20 7:41,R_32Xa8GMTR0Gb4D0,Dot,1,5,4,35,45,50,50,20,From 2000 to 2005,0,40,60,Hertinol,Nopsorian,Coliosis,5,Female,1,25,Completed bachelor's degree,4,White
+155,11/17/20 10:07,R_2cBqL0Twvu84mFK,Bar,0,6,3,35,15,35,50,20,NA,30,40,20,They are equal,Nopsorian,Coliosis,5,Female,1,30,Completed high school with diploma,1,White
+264,11/17/20 11:15,R_eJmI5YbUtvwVIK5,Bar,0,5,6,9,45,30,70,7,From 2000 to 2005,8,40,60,Hertinol,Nopsorian,Tiosis,7,Female,1,47,Completed bachelor's degree,4,White
+232,11/18/20 16:09,R_3kdDMv31OPSzAyo,Dot,1,3,3,35,15,25,25,20,Increase was the same in both intervals,24,30,20,They are equal,Nopsorian,Coliosis,5,Male,0,29,Completed high school with diploma,1,White
+604,11/18/20 16:23,R_z835a3AOC9PN917,Dot,1,5,5,35,10,25,8,20,From 2000 to 2005,30,40,20,They are equal,Nopsorian,Coliosis,50,Male,0,30,Completed bachelor's degree,4,Black or African American
+417,11/18/20 17:01,R_6YGfBl7KfcS55g5,Bar,0,3,5,35,15,35,15,20,Increase was the same in both intervals,25,40,60,Crosicol,Nopsorian,Coliosis,5,Female,1,25,Some college,2,White
